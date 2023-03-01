@@ -20,7 +20,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/SPEEDNET
 
 # 𓊈𒆜 CHAVE DE INSTALAÇÃO! 𒆜𓊉
 ```
-CoutySSH
+SPEEDNET VPN EDUARDO 
 ```
 
 # 𓊈𒆜 SINCRONIZAR NA VPS SSH! 𒆜𓊉
