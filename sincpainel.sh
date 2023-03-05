@@ -12,9 +12,9 @@ echo -e "\033[1;36mREGISTRANDO UMA LICENÇA...\033[0m"
 rm *.sh* > /dev/null 2>&1
 rm *.zip > /dev/null 2>&1
 apt install unzip -y > /dev/null 2>&1
-wget https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/sshplus.zip.001 > /dev/null 2>&1
-wget https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/sshplus.zip.002 > /dev/null 2>&1
-wget https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/sshplus.zip.003 > /dev/null 2>&1
+wget https://raw.githubusercont.com/SPEEDNET244/SSH-WEB/main/sshplus.zip.001 > /dev/null 2>&1
+wget https://raw.githubusercont.com/SPEEDNET244/SSH-WEB/main/sshplus.zip.002 > /dev/null 2>&1
+wget https://raw.githubusercont.com/SPEEDNET244/SSH-WEB/main/sshplus.zip.003 > /dev/null 2>&1
 cat sshplus.zip* > monitor.zip && zip -F monitor.zip > /dev/null 2>&1
 rm -rf /opt/sshplus > /dev/null 2>&1
 unzip monitor.zip -d  /opt/sshplus/ > /dev/null 2>&1
@@ -24,13 +24,13 @@ if [[ -e "/opt/sshplus/licenca.txt" ]]; then
 sed -i "s;ATIVADO;$crack;g" /opt/sshplus/licenca.txt > /dev/null 2>&1
 fi
 clear
-wget https://raw.githubusercontent.com/CoutySSH/SSH-WEB/main/sincpainel.zip > /dev/null 2>&1
+wget https://raw.githubusercont.com/SPEEDNET244/SSH-WEB/main/sincpainel.zip > /dev/null 2>&1
 unzip sincpainel.zip > /dev/null 2>&1
 chmod +x *sh > /dev/null 2>&1
 service ssh restart
 echo -e "\n\033[1;32mCONCLUÍDO!\033[0m"
 sleep 15
-echo -e "\033[1;36mENTRE NO PAINEL E CRIE UMA CONTA SSH PRA VER SE ESTA TUDO OK!\033[0m"
+echo -e "\033[1;36mENTRE NO PAINEL E CRIE UMA CONTA SSH PRA VER SE ESTA TUDO OK ATT SPEEDNET!\033[0m"
 sleep 5
 cat /dev/null > ~/.bash_history && history -c && clear
 rm sincpainel* > /dev/null 2>&1
