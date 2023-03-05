@@ -262,7 +262,7 @@ clear
 echo ""
 echo -e "\E[44;1;37m    ATUALIZANDO O PAINEL     \E[0m"
 echo ""
-echo -e "PW WEB" | figlet
+echo -e "SPEED" | figlet
 echo -e "                              \033[1;31mBy @Painel_Web_PW\033[1;36m"
 echo ""
 clear
@@ -625,7 +625,7 @@ _________________________________________________
              |__] |  |  |  |__| |__| | _ 
              |__] |__|  |  |    |  | |__| 
 _________________________________________________
-                                  BY @Smigolvip
+                                  BY @EDUARDO
 
 FECHA
 
