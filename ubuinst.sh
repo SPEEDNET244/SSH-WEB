@@ -376,7 +376,7 @@ install_continue2
 } > /dev/null
 echo ""
 echo -e "SSH WEB" | figlet | boxes -d stone -p a0v0 | lolcat
-echo -e "                              \033[1;31mBy @Couty_SSH\033[1;36m" | lolcat
+echo -e "                              \033[1;31mBy @EDUARDO\033[1;36m" | lolcat
 echo ""
 echo -e "\033[1;36mDEFINA UMA NOVA SENHA PARA\033[0m" | lolcat
 echo -e "\033[1;36mO USUÁRIO ROOT DA VPS E\033[0m" | lolcat
