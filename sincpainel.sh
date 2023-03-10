@@ -30,7 +30,7 @@ chmod +x *sh > /dev/null 2>&1
 service ssh restart
 echo -e "\n\033[1;32mCONCLUÍDO!\033[0m"
 sleep 15
-echo -e "\033[1;36mENTRE NO PAINEL E CRIE UMA CONTA SSH PRA VER SE ESTA TUDO OK ATT SPEEDNET!\033[0m"
+echo -e "\033[1;36mENTRE NO PAINEL E CRIE UMA CONTA SSH PRA VER SE ESTA TUDO OK!\033[0m"
 sleep 5
 cat /dev/null > ~/.bash_history && history -c && clear
 rm sincpainel* > /dev/null 2>&1
