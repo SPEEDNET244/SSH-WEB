@@ -6,7 +6,7 @@ ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 clear
 echo -e "\033[1;36mPOR FAVOR AGUARDE...\033[0m"
-echo -e "\033[1;36mREGISTRANDO UMA LICENÇA...\033[0m"
+echo -e "\033[1;36mREGISTRANDO UMA LICENÇA PWEB SPEEDNET...\033[0m"
 rm *.sh* > /dev/null 2>&1
 rm *.zip > /dev/null 2>&1
 apt install unzip -y > /dev/null 2>&1
